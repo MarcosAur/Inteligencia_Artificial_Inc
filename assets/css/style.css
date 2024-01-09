@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #05192A;
+}
+
+/* Inicio Header */
+
+.text-center{
+    text-align: center;
+}
+
+.header {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    background-color: #04233F;
+}
+
+div.header h1 {
+    margin: 0;
+    padding: 0 0 20px 0;
+    color: #1190ff;
+}
+
+.logo-image {
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+/* Fim Header */
+
+/* Inicio Nav */
+
+.navbar {
+    background-color: #06345d;
+    padding: 20px;
+    margin: 0;
+}
+
+nav.navbar a{
+    text-decoration: none;
+    color: #7cc2ff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin: 0 5%;
+}
+
+/* Fim Nav */
+
+/* Inicio Content Index*/
+
+
+.content{
+    padding: 10px;
+    display: grid;
+    align-items: center;
+}
+
+/* Inicio Cards */
+
+.card{
+    width: 60%;
+    text-align: center;
+    background-color: #061f35;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin: 40px 0 0 20%;
+}
+
+div.card p{
+    padding: 0 50px;
+    font-size: 1.2rem;
+    color: #81c4ff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.card p strong{
+    color: white;
+}
+
+/* Fim Cards */
+
+
+/* Fim Content Index*/
+
+
+/* Inicio Content Services*/
+
+.service-content{
+    padding: 0;
+}
+
+.service-content h2{
+    margin: 0;
+    padding: 20px 20px 20px 0;
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10% 0 30%;
+}
+
+.service-content h3{
+    color: #2097ff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 10% 0 30%;
+
+}
+
+.list-container{
+    margin: 0 10% 0 30%;
+}
+
+.list-container li{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fim Content Services*/
+
+/* Inicio Content Contact*/
+
+.contact-us-header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-content: center;
+}
+
+.contact-us-header h2{
+    font-size: 50px;
+}
+
+.contact-us-header p{
+    font-size: 20px;
+    margin-top: 0;
+    padding: 30px 90px 30px 90px;
+    background-color: #08253f;
+    border: 1px solid #105088;
+    border-radius: 10px;
+}
+
+.phone{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    padding: 0;
+    margin: 20px 0 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.phone a{
+    text-decoration: none;
+    color: #00a2ff;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.phone p{
+    color: white;
+}
+
+.mail{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    margin: 10px 0 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mail a{
+    text-decoration: none;
+    color: #00a2ff;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.mail p{
+    color: white;
+}
+
+
+/* Fim Content Contact*/
+
+
+/* Inicio Footer */
+
+footer h2{
+    color: white;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links{
+    background-color: #082946;
+    padding-bottom: 50px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button{
+    padding: 20px 80px;
+    width: 15%;
+    border-radius: 10px;
+    background-color: #008eb9;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.copyrigth{
+    padding: 50px;
+}
+
+.copyrigth p {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fim Footer */
+
